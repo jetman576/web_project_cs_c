@@ -1,0 +1,9 @@
+.table-container {
+    max-height: 600px;
+    overflow: auto;
+   
+}
+ thead{
+    position: sticky;
+    top:0;
+}
