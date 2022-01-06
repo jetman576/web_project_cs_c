@@ -6,9 +6,9 @@
       <table class="table  table-striped  ">
         <thead class="thead thead-dark">
           <th>Id</th>
-          <th>Szám</th>
-          <th>Szakma</th>
-          <th>Leírás</th>
+          <th>Feltöltés Címe</th>
+          <th>Feltöltés Tipusa</th>
+          <th>Sorozat Id</th>
           <th>&nbsp;</th>
         </thead>
         <tbody></tbody>
@@ -18,15 +18,16 @@
 </div>
 <!------------------------------------------------->
 <script>
-   fetch(`../server/readSzakok.php`)
+  function megh(){
+   fetch(`../server/readfeltoltesek.php`)
         .then((response) => response.json())
         .then((data) => render(data));
-
+  }
     function render(data) {
         //console.log(data);
         let tblString = "";
         for (let obj of data)
-            tblString += `<tr><td>${obj.id}</td><td>${obj.szam}</td><td>${obj.megnevezes}</td><td contenteditable class="border border-danger">${obj.leiras}</td>
+            tblString += `<tr><td>${obj.id}</td><td>${obj.vidcim}</td><td>${obj.tipus}</td><td>${obj.sorozatid}</td><td contenteditable class="border border-danger">${obj.leiras}</td>
                     <td class="btn btn-success" id="${obj.id}" onclick="update(this)">módosít</td></tr>`;
         document.querySelector("tbody").innerHTML = tblString;
     }

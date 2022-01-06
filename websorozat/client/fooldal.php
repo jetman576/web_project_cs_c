@@ -4,7 +4,7 @@
             <img class="img-fluid" src="glitchlogo.png" alt="">
         </div>
         <div class="col-md-6 col-12 text-justify">
-            <p>A GLITCH Productions egy 3d animációs websorozatokkal foglalkozó stúdió. Székhelye Sydneyben található. Eredeti neve Glitchy Boy volt (2017-2018). Alapítói Luke Lerdwichgaul és Kevin Lerdwichgaul (társalapító). Nevükhöz fűződik az SMG4 nevű paródiákkal foglalkozó youtube csatorna, Meta Runner, Sunset Paradise és végül, de nem utolsó sorban, Murder Drones.</p>
+            <p>A GLITCH Productions egy 3d animációs websorozatokkal foglalkozó stúdió. Székhelye Sydneyben található. Eredeti neve Glitchy Boy volt (2017-2018). Alapítói Luke Lerdwichgaul és Kevin Lerdwichgaul (társalapító). Nevükhöz fűződik az SMG4 nevű paródiákkal foglalkozó youtube csatorna, Meta Runner, Sunset Paradise és végül, de nem utolsó sorban, Murder Drones. Legsikeresebb sorozatuk, Meta Runner, jelenleg 15 millió megtekintéssel rendelkezik.</p>
                       </div>
     </div>
 
